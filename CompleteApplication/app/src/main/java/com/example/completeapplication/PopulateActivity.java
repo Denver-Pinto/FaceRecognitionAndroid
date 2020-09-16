@@ -101,7 +101,7 @@ public class PopulateActivity extends AppCompatActivity implements View.OnClickL
     SparseArray<Face> faces;
     Double[] faceID;
     RequestQueue requestQueue;  // This is our requests queue to process our HTTP requests.
-    String baseUrl = "http://40.76.203.129:8501/v1/models/estimator_model:predict"; // This is the API base URL
+    String baseUrl = "http://40.117.95.58:8501/v1/models/estimator_model:predict"; // This is the API base URL
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
